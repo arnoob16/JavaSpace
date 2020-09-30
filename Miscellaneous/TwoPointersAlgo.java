@@ -1,6 +1,5 @@
+package Miscellaneous;
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class TwoPointersAlgo {
     //This function prints all pairs in the array that sum to a number X. If no such pair exists then output will be -1.
@@ -51,7 +50,7 @@ class TwoPointersAlgo {
 		    //taking array input
 		    int k = in.nextInt(); //the total of the pair entered by the user
 		    twoSum(a, k);
-		    
+		    in.close();
 		}
 	}//end of main
 }//end of class

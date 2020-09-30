@@ -19,5 +19,6 @@ class average
 		}
 		avg = (double)sum/(double)n;
 		System.out.println("Average of given numbers = " + avg);
+		sc.close();
 	}
 }
